@@ -25,14 +25,13 @@ const duplicates = [
         for (let j = i + 1; j < array.length; j++) {
           if (array[i] === array[j]) {
             array.splice(i, 1);
-            //return true;
+            
           }
         }
       }
       
-      //return false;
+      
   }
-
 
 removeDuplicates(duplicates);
   console.log(duplicates);
