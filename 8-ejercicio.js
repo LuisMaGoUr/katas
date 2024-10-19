@@ -9,8 +9,7 @@ const avengers = [
 let stringMasLargo = ''
 function findLongestWord(param) {
   for (const element of param) {
-    // console.log(element);
-    if (element.length > stringMasLargo.length) {
+        if (element.length > stringMasLargo.length) {
       stringMasLargo = element
     }
   }
