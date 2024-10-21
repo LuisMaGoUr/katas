@@ -10,14 +10,30 @@ const users = [
   { name: 'Natasha', years: 14 },
   { name: 'Bruce', years: 32 },
   { name: 'Khamala', years: 16 }
-]
+];
 
 for (const element of users) {
   if (element.years < 18) {
-    console.log(`Usuarios menores de edad:`)
-    console.log(element)
+    console.log(`Usuarios menores de edad:`);
+    console.log(element);
   } else {
-    console.log('Usuarios mayores de edad:')
-    console.log(element)
+    console.log('Usuarios mayores de edad:');
+    console.log(element);
   }
 }
+
+//ALTERNATIVA
+/* const mayores = [];
+  const menores = [];
+
+  for (const user of users) {
+    if(user.years < 18) {
+        menores.push(user);
+    }
+    if(user.years >= 18) {
+        mayores.push(user);
+    }
+  }
+
+  console.log("Usuarios menores de edad:", menores);
+  console.log("Usuarios mayores de edad:", mayores); */
